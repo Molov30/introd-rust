@@ -4,4 +4,8 @@ fn main() {
         y + 1
     };
     println!("{}", x);
+
+    let x = String::from("new string");
+    let y = x.clone();
+    println!("x={} y={}", x, y);
 }
